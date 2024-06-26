@@ -24,9 +24,9 @@ document.querySelectorAll('.num,.op,.eq,.clear').forEach(button => {
   });
   
   function evaluate(expression) {
-    expression = expression.replace(/[^0-9+\-*/.()]/g, ''); // allow parentheses
+    expression = expression.replace(/[^0-9+\-*/.()]/g, '');
     try {
-      return eval(expression); // use eval to evaluate the expression
+      return eval(expression);
     } catch (e) {
       return "Error";
     }
