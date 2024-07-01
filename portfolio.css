@@ -108,7 +108,7 @@ p{
     height: auto;
 }
 .prjct.clone:hover {
-    transform: scale(3);
+    transform: scale(2.5);
     background-color: black;
 }
 .prjct.clone video {
