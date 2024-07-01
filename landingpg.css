@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
     transition: all 0.7s ease-in-out;
+    overflow-x: hidden;
 }
 h1{
     font-family: "Ballet",cursive;
