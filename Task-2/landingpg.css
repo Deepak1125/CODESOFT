@@ -46,7 +46,7 @@ a{
   font-size: 34px;
   padding: 10px;
   overflow-x: hidden;
-  background-image: url("photos/cafebrew1.jpg");
+  background-image: url("../Photos/cafebrew1.jpg");
   background-size: cover;
   height: 680px;
   width: 100vw;
