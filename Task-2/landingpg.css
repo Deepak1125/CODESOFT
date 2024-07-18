@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+    transition: all 0.7s ease-in-out;
+}
+h1{
+    font-family: "Ballet",cursive;
+    font-weight:900 ;
+    font-size: 48px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(222, 184, 135);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    border-bottom:2px solid black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: auto;
+    width:100%;
+}
+.hr{
+    display: inline-flex;
+    font-size: 24px;
+    padding: 10px;
+}
+.hr.login{
+    position: absolute;
+    right: 35px;
+    background-color: white;
+    border-radius: 24px;
+}
+.hr.signup{
+    position: absolute;
+    right: 155px;
+    background-color: green;
+    border-radius: 24px;
+    color: white;
+}
+.intro{
+  font-size: 34px;
+  padding: 10px;
+  overflow-x: hidden;
+  background-image: url("photos/cafebrew1.jpg");
+  background-size: cover;
+  height: 680px;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 49px;
+  z-index: -1;
+}
+.intro img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+.intro h1{
+    position: relative;
+    top: 60%;
+    left: 55%;
+}
+.about1{
+    position: absolute;
+    top: 99%;
+    margin: 0;
+    padding: 0;
+}
+.about1 h1{
+    margin: 0;
+    padding-top: 40px;
+}
+.about1 p{
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    width: 1350px;
+    margin-left: 70px;
+}
+.brew {
+    position: absolute;
+    top: 140%;
+    overflow-x: visible;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brew h1 {
+    font-family: "Ballet", cursive;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+    width: 100%;
+}
+.brew .ig {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+.brew span {
+    font-size: 26px;
+    margin-left: 20px;
+}
+.brew img {
+    height: 250px;
+    width: 250px;
+}
+.product{
+    position: absolute;
+    top: 195%;
+    overflow-x: visible;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product h1{
+    margin: 0;
+    width: 100%;
+}
+.product img{
+    height: 250px;
+    width: 250px;
+}
+.product .ig {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+}
+.product span {
+    font-size: 26px;
+    margin-left: 20px;
+}
